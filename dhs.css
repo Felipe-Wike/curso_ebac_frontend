@@ -1,0 +1,144 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=REM:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:10px;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+body > header{
+    position: relative;
+    color: #6f1272;
+    background-color:  #000000;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 35px;
+}
+
+
+header .container{   
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.container li{
+    display: inline-block;
+}
+
+.container li a {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    padding: 15;
+    border:double 7px;
+    border-top: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display:flex;
+    flex: 300px;
+    flex-direction: column;
+}
+
+.container li a:hover{
+    background-color: #050505;
+    color: #be0606;
+    box-shadow: 0 0 25px #ffffff, 0 0  25px #ffffff,
+    0 0 50px #ffffff, 0 0 50px #ffffff;
+    
+}
+
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 300px;
+}
+
+
+.articles article img {
+    width:min( 100% - 15px, 850px);
+    margin-inline: 15px;
+    border-radius: 20px;
+    align-items:flex-end;
+}
+
+.cenário{
+    height:335px;
+}
+
+.badang{
+    height:566px;
+}
+
+.articles article{
+    width:30%;
+}
+.articles article p{
+    text-align: center;
+}
+#mobile{
+    background-color:#a52d3d;
+}
+#heróis{
+    background-color:#282828 ;
+}
+
+#rotação{
+    background-color:  #884f29fb;
+}
+
+#dragon{
+    background-color: #4d0000;
+}
+
+.articles article a {
+    background-color: #eceef1;
+    padding: 9px;
+    border-radius: 5px;
+    display:inline-block;
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.articles article:hover{
+    background-color: #050505;
+    color: #be0606;
+    box-shadow: 0 0 25px #ffffff, 0 0  25px #ffffff,
+    0 0 50px #ffffff, 0 0 50px #ffffff;
+    border-radius: 20px;
+}
+
+section h2, 
+.articles article{
+    margin-bottom:10px ;
+
+}
+.articles article{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article p {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#d1c1c1;
+    font-size: 16px;
+    text-align: justify;
+}
+.articles article h3{
+    font-size:20px ;
+    color: rgb(5, 5, 5);
+}
+
+section h2{
+    font-size: 35px;
+}

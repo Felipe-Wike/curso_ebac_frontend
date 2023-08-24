@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="./main.css" >
+    <style>
+        button {
+            color:	#CD5C5C ;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -11,19 +17,20 @@
     </header>
     <main>
         <form action="./login.html">
-            <label for="nome">Nome: </label>
+            <label class="nome" for="nome">Nome: </label>
             <input id="nome" type="text" placeholder="Seu Nome" >
-            <p>
-                <label for="email">Email: </label>
+            <p >
+                <label class="email" for="email">Email: </label>
                 <input id="email" type="email" placeholder="email" >
             </p>
             <p>
-                <label for="senha">Senha: </label>
-                <input id="senha" type="password" placeholder="Senha" >
+                <label class="senha" for="senha">Senha: </label>
+                <input  id="senha" type="password"  placeholder="Senha" >
             </p>
-            <input id="aceito_os_termos_de_uso" type="checkbox" > <label for="aceito_os_termos_de_uso">Aceito os termos de uso</label>
-            <br >
-            <button type="submit">Cadastro</button>
+            <div >
+                <input  id="aceito_os_termos_de_uso" type="checkbox" > <label class="aceito"  for="aceito_os_termos_de_uso">Aceito os termos de uso</label>
+            </div>
+            <button  type="submit">Cadastro</button>
         </form>
     </main>
 </body>
