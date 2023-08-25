@@ -31,25 +31,25 @@ header .container{
     display: inline-block;
 }
 
-.container li a {
-    border-radius: 2px;
+.container li a{
     background-color: rgb(255, 255, 255);
-    color: blueviolet;
+    color: #7e24d3;
     border-radius: 25px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
     padding: 15;
-    border:double 7px;
+    border:double 8px;
     border-top: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     display:flex;
     flex: 300px;
     flex-direction: column;
+    box-shadow: 5px  5px  6px;
 }
 
-.container li a:hover{
+.container  li a:hover{
     background-color: #050505;
     color: #be0606;
     box-shadow: 0 0 25px #ffffff, 0 0  25px #ffffff,
@@ -68,16 +68,14 @@ header .container{
 .articles article img {
     width:min( 100% - 15px, 850px);
     margin-inline: 15px;
-    border-radius: 20px;
+    border-radius: 15px;
     align-items:flex-end;
 }
 
-.cenário{
-    height:335px;
-}
 
-.badang{
-    height:566px;
+#heróis img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .articles article{
@@ -111,9 +109,9 @@ header .container{
     font-weight: bold;
 }
 
-.articles article:hover{
-    background-color: #050505;
-    color: #be0606;
+.articles article:hover {
+    background-color: #0e90b1;
+    color: #000000;
     box-shadow: 0 0 25px #ffffff, 0 0  25px #ffffff,
     0 0 50px #ffffff, 0 0 50px #ffffff;
     border-radius: 20px;
@@ -136,7 +134,7 @@ section h2,
 }
 .articles article h3{
     font-size:20px ;
-    color: rgb(5, 5, 5);
+    color: rgb(8, 8, 8);
 }
 
 section h2{
